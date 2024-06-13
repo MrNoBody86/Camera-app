@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 export default function App() {
   const [hasCameraPermissions, setHasCameraPermissions] = useState(null);
   const [image, setImage] = useState(null);
-  const [facing, setFacing] = useState('back');
+  const [facing, setFacing] = useState(CameraView.);
   const [flash, setFlash] = useState('off');
   const cameraRef = useRef(null);
 
